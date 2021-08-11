@@ -7,7 +7,7 @@ const data = {
       bloodGroup: "O+",
       lastDonate: "22/04/21",
       mobile: "01913093116",
-      image: "",
+      image: "./images/elahy.jpg",
     },
     {
       _id: "02",
