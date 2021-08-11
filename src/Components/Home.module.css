@@ -1,0 +1,21 @@
+.image {
+  max-width: 65vh;
+  margin: 3% 10%;
+  border-radius: 20px;
+}
+.findButton {
+  align-self: center;
+  position: absolute;
+  top: 50%;
+  justify-content: center;
+  /* left: 70%; */
+}
+.heading {
+  align-content: center;
+  position: absolute;
+  top: 40%;
+  left: 47%;
+  color: brown;
+  justify-content: center;
+  font-size: 50px;
+}
