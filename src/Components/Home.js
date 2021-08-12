@@ -28,6 +28,14 @@ function Home() {
       >
         Find Donor
       </Button>
+      <Button
+        variant="contained"
+        className={styles.registerButton}
+        color="secondary"
+        onClick={handleFindDonor}
+      >
+        Register Now!
+      </Button>
     </div>
   );
 }
