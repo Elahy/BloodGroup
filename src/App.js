@@ -8,7 +8,6 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        {" "}
         <img className="logo" src="../images/logo.png" alt="logo" />
         <nav>
           <ul className="nav_links">

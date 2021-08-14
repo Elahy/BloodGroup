@@ -8,6 +8,7 @@ const data = {
       lastDonate: "22/04/21",
       address: "Fatullah, Narayanganj",
       mobile: "01913093116",
+      previousDonation: 2,
       email: "scoutelahy@gmail.com",
       image: "./images/elahy.jpg",
     },
@@ -21,6 +22,7 @@ const data = {
       address: "Amlapara, Narayanganj",
       email: "faheemhussain545@gmail.com",
       mobile: "01930102284",
+      previousDonation: 2,
       image: "./images/faheem.jpg",
     },
     {
@@ -32,6 +34,7 @@ const data = {
       address: "Don Chamber, Narayanganj",
       mobile: "01672395420",
       email: "ahmedfardeen0@gmail.com",
+      previousDonation: 2,
       image: "",
     },
     {
@@ -43,6 +46,7 @@ const data = {
       address: "Jatrabari, Dhaka",
       mobile: "01515248245",
       email: "mahadisabbir.ms@gmail.com",
+      previousDonation: 10,
       image: "./images/MehediSabbir.jpg",
     },
     {
@@ -54,6 +58,7 @@ const data = {
       address: "Puran Dhaka",
       email: "ali852609@gmail.com",
       mobile: "01531725630",
+      previousDonation: 2,
       image: "./images/aliAkber.jpg",
     },
     {
@@ -68,12 +73,14 @@ const data = {
     },
     {
       _id: "07",
-      name: "Faheem",
+      name: "Kawsarul Jannat Rinty",
       age: 24,
       bloodGroup: "A+",
-      lastDonate: "22/04/21",
-      address: "Narayanganj",
-      mobile: "01841551123",
+      lastDonate: "",
+      address: "Banasree, Dhaka",
+      mobile: "01644358725",
+      email: "rintyjannat83@gmail.com",
+      previousDonation: 0,
       image: "",
     },
     {
