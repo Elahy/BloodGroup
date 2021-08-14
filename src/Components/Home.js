@@ -14,9 +14,11 @@ const useStyles = makeStyles((theme) => ({
   },
   paper: {
     flexGrow: 1,
-    padding: theme.spacing(2),
+    // padding: theme.spacing(2),
     textAlign: "center",
     color: theme.palette.text.secondary,
+    borderRadius: "22px",
+    background: "transparent",
   },
 }));
 function Home() {
@@ -28,7 +30,8 @@ function Home() {
   return (
     <div className={classes.root}>
       <Grid container spacing={3}>
-        <Grid item xs={12}>
+        <Grid item xs={0} md={2}></Grid>
+        <Grid item xs={12} md={4}>
           <Paper className={classes.paper}>
             <img
               className={styles.image}
@@ -37,7 +40,7 @@ function Home() {
             />
           </Paper>
         </Grid>
-        <Grid item xs={12}>
+        <Grid item xs={12} md={4}>
           <Paper className={classes.paper}>
             <h1 className={styles.heading}>Donate Blood Save Life!</h1>
             <Button
@@ -58,6 +61,7 @@ function Home() {
             </Button>
           </Paper>
         </Grid>
+        <Grid item xs={0} md={2}></Grid>
       </Grid>
     </div>
   );

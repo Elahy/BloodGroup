@@ -1,27 +1,20 @@
 .image {
-  max-width: 65vh;
-  margin: 3% 10%;
+  max-width: 100%;
+  padding: 0;
+  margin: 0;
   border-radius: 20px;
+  background: transparent;
 }
 .findButton {
-  align-self: center;
-  position: absolute;
-  top: 50%;
+  position: relative;
   justify-content: center;
-  left: 50%;
 }
 .registerButton {
-  align-self: center;
-  position: absolute;
-  top: 50%;
+  position: relative;
   justify-content: center;
-  left: 65%;
 }
 .heading {
-  align-content: center;
-  position: absolute;
-  top: 40%;
-  left: 47%;
+  position: relative;
   color: brown;
   justify-content: center;
   font-size: 50px;
