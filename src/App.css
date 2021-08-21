@@ -29,6 +29,11 @@ header {
 .nav_links {
   list-style: none;
 }
+@media screen and (max-width: 500px) {
+  .nav_links {
+    display: none;
+  }
+}
 .nav_links li {
   display: inline-block;
   padding: 0px 20px;
