@@ -25,7 +25,7 @@ function Home() {
   const classes = useStyles();
   const history = useHistory();
   const handleFindDonor = () => {
-    history.push("/donor");
+    history.push("/donorlist");
   };
   return (
     <div className={classes.root}>
