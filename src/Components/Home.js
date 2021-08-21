@@ -9,8 +9,8 @@ import Grid from "@material-ui/core/Grid";
 const useStyles = makeStyles((theme) => ({
   root: {
     flexGrow: 1,
-    minWidth: "100vh",
-    backgroundImage: `url(${process.env.PUBLIC_URL + "/images/child.jpg"})`,
+    minHeight: "90vh",
+    background: "black",
   },
   paper: {
     flexGrow: 1,
