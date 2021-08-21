@@ -3,6 +3,8 @@ import "./App.css";
 import Donor from "./Components/Donor";
 import Login from "./Components/Login";
 import Home from "./Components/Home";
+import Contact from "./Components/Contact";
+import DonorDetails from "./Components/DonorDetails";
 
 function App() {
   return (
@@ -32,11 +34,17 @@ function App() {
           <Route exact path="/">
             <Home />
           </Route>
-          <Route path="/donor">
+          <Route path="/donorlist">
             <Donor />
+          </Route>
+          <Route path="/donor/:id">
+            <DonorDetails />
           </Route>
           <Route path="/login">
             <Login />
+          </Route>
+          <Route path="/contact">
+            <Contact />
           </Route>
         </Switch>
       </main>

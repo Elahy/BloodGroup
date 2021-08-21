@@ -1,0 +1,17 @@
+.root {
+  min-height: 90vh;
+}
+.loginbtn {
+  padding: 8px 25px;
+  background-color: #f44336;
+  color: #edf0f1;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 17px;
+  font-weight: 450;
+  transition: all 0.3s ease 0s;
+  text-decoration: none;
+  opacity: 85%;
+  align-content: center;
+}

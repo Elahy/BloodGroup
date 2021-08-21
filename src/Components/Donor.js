@@ -16,7 +16,7 @@ function Donor() {
           <p className="group">{m.bloodGroup}</p>
           <p>{m.address}</p>
           <p>
-            <Link to={`/member/${m.id}`} className="contactbtn">
+            <Link to={`/donor/${m._id}`} className="contactbtn">
               View Details
             </Link>
           </p>
