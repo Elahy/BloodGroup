@@ -1,3 +1,35 @@
-.root {
-  min-height: 90vh;
+.main {
+  text-align: center;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+.item {
+  padding: 1% 1% 0 0;
+  color: aliceblue;
+  font-size: 20px;
+}
+.button {
+  margin: 2%;
+  padding: 5px 10px;
+  max-width: 100px;
+  position: relative;
+  left: 45%;
+  font-size: 15px;
+}
+.button:hover {
+  border: 5px solid white;
+}
+@media screen and (max-width: 500px) {
+  .button {
+    margin: 5%;
+    padding: 5px 10px;
+    max-width: 100px;
+    position: relative;
+    left: 35%;
+  }
+  .item {
+    padding: 5% 1% 0 0;
+    color: aliceblue;
+  }
 }

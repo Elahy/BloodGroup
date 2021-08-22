@@ -1,5 +1,7 @@
 /* Contact Part */
-.contact {
+.main {
+  margin: 0;
+  padding: 0;
   min-height: 90vh;
   background: linear-gradient(
     113deg,
@@ -7,16 +9,12 @@
     rgba(52, 48, 60, 1) 50%,
     rgba(26, 26, 115, 1) 100%
   );
-}
-
-.contact .container {
-  margin: 0 auto;
   display: block;
   padding-bottom: 2rem;
   text-transform: capitalize;
 }
 
-.contact .container h4 {
+.main h4 {
   font-family: "Franklin Gothic Medium";
   color: #ffffff;
   font-size: 1.125rem;
@@ -24,11 +22,12 @@
   letter-spacing: 0.056rem;
   text-align: center;
   text-transform: uppercase;
+  margin: 0;
   padding-top: 3rem;
   padding-bottom: 2rem;
 }
 
-.contact .container p {
+.main p {
   font-family: Cambria;
   color: #ffffff;
   font-size: 0.875rem;
@@ -38,7 +37,7 @@
   padding: 0.2rem 0rem;
 }
 
-.contact .container p.email {
+.main p.email {
   margin: 0 auto;
   margin-top: 6rem;
   border-bottom: 1px solid white;
@@ -46,19 +45,19 @@
   width: 40%;
 }
 
-.contact .container p.email span {
+.main p.email span {
   width: 17px;
   height: 15px;
   float: right;
 }
 
-.contact .container p.email span img {
+.main p.email span img {
   width: 17px;
   height: auto;
 }
 
 @media only screen and (max-width: 800px) {
-  .contact .container p.email {
+  .main p.email {
     width: 90%;
   }
 }
