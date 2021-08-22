@@ -7,6 +7,8 @@ import Contact from "./Components/Contact";
 import DonorDetails from "./Components/DonorDetails";
 import Guidelines from "./Components/Guidelines";
 import { useHistory } from "react-router";
+import Policy from "./Components/Policy";
+import Register from "./Components/Register";
 
 function App() {
   const history = useHistory();
@@ -35,6 +37,11 @@ function App() {
                 Contact
               </Link>
             </li>
+            <li>
+              <Link to="/guideline" className="navbtn">
+                Guideline
+              </Link>
+            </li>
           </ul>
         </nav>
         <Link to="/login" className="homebtn">
@@ -55,11 +62,17 @@ function App() {
           <Route path="/login">
             <Login />
           </Route>
+          <Route path="/register">
+            <Register />
+          </Route>
           <Route path="/guideline">
             <Guidelines />
           </Route>
           <Route path="/contact">
             <Contact />
+          </Route>
+          <Route path="/PrivacyPolicy">
+            <Policy />
           </Route>
         </Switch>
       </main>

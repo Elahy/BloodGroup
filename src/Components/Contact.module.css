@@ -1,13 +1,15 @@
 /* Contact Part */
 .contact {
   min-height: 90vh;
-  width: 100%;
-  background-color: #8a9c8f;
-  margin: 0;
+  background: linear-gradient(
+    113deg,
+    rgba(45, 30, 190, 1) 0%,
+    rgba(52, 48, 60, 1) 50%,
+    rgba(26, 26, 115, 1) 100%
+  );
 }
 
 .contact .container {
-  width: 80%;
   margin: 0 auto;
   display: block;
   padding-bottom: 2rem;

@@ -1,0 +1,13 @@
+.root {
+  min-height: 90vh;
+}
+.head {
+  margin: 2% 5%;
+  text-align: center;
+  font-size: 40px;
+}
+.para {
+  margin: 2% 5%;
+  text-align: justify;
+  font-size: 20px;
+}

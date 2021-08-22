@@ -5,10 +5,10 @@ function Contact() {
   return (
     <div className={styles.contact}>
       <div className={styles.container}>
-        <h4>cantact us</h4>
-        <p>41/A High Street, Dhanmondi, Dhaka</p>
-        <p>+ (880) 193 452 8562</p>
-        <p>info.ecommerce@gmail.com</p>
+        <h4>Contact us</h4>
+        <p>156 BB Road, Sadar, Narayanganj</p>
+        <p>+ (880) 181 852 4562</p>
+        <p>bloodgroup@gmail.com</p>
         <p className={styles.email}>
           email us
           <span>

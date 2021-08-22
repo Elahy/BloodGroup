@@ -9,7 +9,8 @@ const useStyles = makeStyles((theme) => ({
   root: {
     flexGrow: 1,
     minHeight: "90vh",
-    background: "black",
+    background:
+      "linear-gradient(113deg, rgba(0,0,0,1) 0%, rgba(52,48,60,1) 50%, rgba(95,95,98,1) 100%)",
   },
 }));
 function Home() {
@@ -42,7 +43,10 @@ function Home() {
               Find Donor
             </button>
             <p className={styles.text}>New to this community?</p>
-            <button className={styles.registerButton} onClick={handleFindDonor}>
+            <button
+              className={styles.registerButton}
+              onClick={() => history.push("/register")}
+            >
               Register Now!
             </button>
             <p>
